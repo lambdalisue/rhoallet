@@ -12,7 +12,7 @@ HEADER  = """
 /*
  * #{NAME}
  *
- * A mathmatical color pallet generator
+ * A mathematical color pallet generator
  *
  * @author Alisue (lambdalisue)
  * @version #{VERSION}
