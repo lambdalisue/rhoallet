@@ -1,0 +1,69 @@
+#pallet div {
+    position: relative;
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+#pallet div:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    clera: both;
+}
+
+#pallet div ul {
+    position: relative;
+    left: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+#pallet div ul li {
+    list-style: none;
+    position: relative;
+    left: -50%;
+    float: left;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #888;
+
+    transition-property: width, height, margin;
+    transition-duration: 200ms;
+    transition-delay: 500ms;
+    overflow: hidden;
+
+    &.last + li {
+        clear: both;
+    }
+
+    span {
+        display: block;
+        visibility: hidden;
+        text-align: center;
+        vertical-align: middle;
+        transition-property: visibility;
+        transition-duration: 200ms;
+        transition-delay: 500ms;
+        small {
+            font-size: xx-small;
+        }
+    }
+
+    &:hover {
+        width: 70px;
+        height: 70px;
+        z-index: 2;
+        margin: -19px;
+        span {
+            visibility: visible;
+        }
+    }
+}

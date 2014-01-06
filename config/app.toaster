@@ -1,0 +1,23 @@
+# vim: set ft=coffee
+toast
+  folders:
+    'src': null
+  # EXCLUDED FOLDERS (optional)
+  # exclude: ['folder/to/exclude', 'another/folder/to/exclude', ... ]
+
+  # => VENDORS (optional)
+  vendors: [
+    'vendors/usestrict.js'
+  ]
+
+  # => OPTIONS (optional, default values listed)
+  # bare: false
+  bare: false
+  packaging: false
+  expose: null
+  minify: true
+
+  # => HTTPFOLDER (optional), RELEASE / DEBUG (required)
+  httpfolder: 'js'
+  release: "www/js/app.js"
+  debug: "www/js/app.debug.js"

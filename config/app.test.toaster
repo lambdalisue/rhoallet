@@ -1,0 +1,24 @@
+# vim: set ft=coffee
+toast
+  folders:
+    'test': null
+
+  # EXCLUDED FOLDERS (optional)
+  # exclude: ['folder/to/exclude', 'another/folder/to/exclude', ... ]
+
+  # => VENDORS (optional)
+  vendors: [
+    'vendors/mocha_ie_patch.js',
+  ]
+
+  # => OPTIONS (optional, default values listed)
+  # bare: false
+  bare: false
+  packaging: false
+  expose: null
+  minify: false
+
+  # => HTTPFOLDER (optional), RELEASE / DEBUG (required)
+  httpfolder: 'js'
+  release: 'www/js/app.test.js'
+  debug: ''

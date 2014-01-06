@@ -1,0 +1,14 @@
+<h2>Pallet options</h2>
+<p>
+  <label class="prefix" for='pallet_mode'>Pallet mode :</label>
+  <select id='pallet_mode', name='pallet_mode'>
+  {{#palletModes}}
+    <option value="{{name}}" {{#selected}}selected="selected"{{/selected}}>{{displayName}}</option>
+  {{/palletModes}}
+  </select>
+</p>
+
+{{#palletOptionsConfigures}}
+{{>configure}}
+{{/palletOptionsConfigures}}
+

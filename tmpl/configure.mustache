@@ -1,0 +1,15 @@
+<p id="{{name}}_enabled" class="configure">
+  <span class="prefix">{{displayName}} :</span>
+  <input name="{{name}}_n" id="{{name}}_n" value='{{n}}' maxlength='3'>
+  <label for="{{name}}_n">steps</label>
+  <label for="{{name}}_s">from</label>
+  <input name="{{name}}_s" id="{{name}}_s" value='{{s}}' maxlength='5'>
+  <label for="{{name}}_e">to</label>
+  <input name="{{name}}_e" id="{{name}}_e" value='{{e}}' maxlength='5'>
+  <span id="{{name}}_slider_dynamic"></span>
+</p>
+<p id="{{name}}_disabled" class="configure">
+  <label for="{{name}}_static" class="prefix">{{displayName}} :</label>
+  <input name="{{name}}_static" id="{{name}}_static" value='{{static}}' maxlength='5'>
+  <span id="{{name}}_slider_static"></span>
+</p>
