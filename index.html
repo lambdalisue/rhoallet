@@ -1,60 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Rhoallet : " />
+<title>rhoallet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Lato:300|Merriweather'>
+<link rel="stylesheet" href='css/app.css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<a href="https://github.com/lambdalisue/rhoallet/">
+  <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
 
-    <title>Rhoallet</title>
-  </head>
+<section id="inner-body">
+<header>
+  <h1 title="rhoallet">&rho;allet</h1>
+  <h2>A mathmatical color pallet generator based on HSL color mode</h2>
+</header>
 
-  <body>
+<section id="background-mode">
+  <ul>
+    <li id="dark-mode">Dark mode
+    <li id="light-mode">Light mode
+  </ul>
+</section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/lambdalisue/rhoallet">View on GitHub</a>
+<section id="content">
+  <section id="controller">
+    <div></div>
+  </section>
+  <section id="pallet">
+    <h2>Pallet</h2>
+    <div></div>
+  </section>
+  <section id="information">
+    <div id="sharelink"></div>
+    <section id="output">
+      <h2>Output</h2>
+      <pre></pre>
+    </section>
+  </section>
+</section>
 
-          <h1 id="project_title">Rhoallet</h1>
-          <h2 id="project_tagline"></h2>
+<footer>
+  <p>&copy; 2014 hashnote.net, &Lambda;lisue
+</footer>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/lambdalisue/rhoallet/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/lambdalisue/rhoallet/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/vendors/jquery.deserialize-1.2.1.min.js"></script>
+<script src="js/vendors/hogan-2.0.0.min.js"></script>
+<script src="js/templates.js"></script>
+<script src="js/app.js"></script>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="%CF%81allet" class="anchor" href="#%CF%81allet"><span class="octicon octicon-link"></span></a>ρallet</h1>
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52ca35eb4a386ae9"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'right',
+      'numPreferredServices' : 5
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'twitter', 'id': 'lambdalisue'},
+        {'service': 'youtube', 'id': 'lambdalisue'},
+        {'service': 'flickr', 'id': 'lambdalisue'},
+        {'service': 'instagram', 'id': 'lambdalisue'},
+        {'service': 'tumblr', 'id': 'lambdalisue'}
+      ]
+    }   
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+</section>
 
-<p>ρallet is a mathmatical color pallet generator developed for determine the
-colors used in graph plotting.</p>
-
-<h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
-
-<p>MIT License</p>
-
-<p>© 2014 Alisue, hashnote.net</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Rhoallet maintained by <a href="https://github.com/lambdalisue">lambdalisue</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
 </html>
