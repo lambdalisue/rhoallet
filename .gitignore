@@ -1,5 +1,4 @@
 www/js/toaster
 www/js/app.debug.js
-www/css/app.css
 node_modules
 npm-debug.log
