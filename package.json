@@ -2,7 +2,7 @@
     "author": "lambdalisue",
     "name": "rhoallet",
     "description": "A mathmatical color pallet generator",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "scripts": {
         "test": "node_modules/mocha-phantomjs/bin/mocha-phantomjs www/test.html"
     },

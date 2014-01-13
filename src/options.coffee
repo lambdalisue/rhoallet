@@ -7,16 +7,19 @@ Options =
       hue_e: 1
       hue_static: 0.5
       hue_fn: 'linear'
+      hue_reverse: false
       saturation_n: 10
       saturation_s: 0
       saturation_e: 1
       saturation_static: 0.5
       saturation_fn: 'linear'
+      saturation_reverse: false
       lightness_n: 10
       lightness_s: 0.1
       lightness_e: 0.9
       lightness_static: 0.5
       lightness_fn: 'linear'
+      lightness_reverse: false
       pallet_mode: 'HS'
     opts = jQuery.extend(defaultOpts, opts)
     # parse numerics
@@ -26,6 +29,7 @@ Options =
       'lightness_s', 'lightness_e', 'lightness_static',
     ]
     ints = ['hue_n', 'saturation_n', 'lightness_n']
+    #bools = ['hue_reverse', 'saturation_reverse', 'lightness_reverse']
     for key in floats
       opts[key] = parseFloat(opts[key])
     for key in ints

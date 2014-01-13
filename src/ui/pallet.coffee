@@ -64,6 +64,12 @@ class Pallet
     frag = document.createDocumentFragment()
     rows = new Array
     cols = new Array
+    if @opts.hue_reverse
+      hs.reverse()
+    if @opts.saturation_reverse
+      ss.reverse()
+    if @opts.lightness_reverse
+      ls.reverse()
     for h in hs 
       for s in ss
         for l in ls

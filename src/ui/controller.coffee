@@ -123,9 +123,9 @@ class Controller
         {name: 'SL', displayName: 'Saturation / Lightness'},
       ]
       palletOptionsConfigures: [
-        {name: 'hue', displayName: 'Hue (H)', n: 6, s: 0, e: 1, static: 0.5, fn: 'linear'},
-        {name: 'saturation', displayName: 'Saturation (S)', n: 6, s: 0, e: 1, static: 0.5, fn: 'linear'},
-        {name: 'lightness', displayName: 'Lightness (L)', n: 6, s: 0.1, e: 0.9, static: 0.5, fn: 'linear'},
+        {name: 'hue', displayName: 'Hue (H)', n: 6, s: 0, e: 1, static: 0.5, fn: 'linear', reverse: false},
+        {name: 'saturation', displayName: 'Saturation (S)', n: 6, s: 0, e: 1, static: 0.5, fn: 'linear', reverse: false},
+        {name: 'lightness', displayName: 'Lightness (L)', n: 6, s: 0.1, e: 0.9, static: 0.5, fn: 'linear', reverse: false},
       ]
       outputOptionsConfigures: [
         {name: 'quotation', displayName: 'Quotation mark', value: "'"},
